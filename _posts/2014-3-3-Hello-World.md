@@ -3,6 +3,6 @@ layout: post
 title: You're up and running!
 ---
 
-Testing: does markdown run tex?
+Testing: MathJax.
 
-$ e^{i\pi}+1 =0$. 
+$$ e^{i\pi}+1 =0 $$. 
