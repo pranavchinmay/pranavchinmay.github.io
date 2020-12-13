@@ -17,3 +17,5 @@ $$ \frac{a}{b} + \frac{c}{d} = \frac{a+c}{b+d}. $$
 
 Well, obviously, because it doesn't work. If I buy a pizza, give my mother half of it, and my father a quarter, well, I've given away three-fourths of the pizza, not one-sixth. What a silly question!
 
+But does the story end there? Of course not. 
+
