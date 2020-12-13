@@ -43,10 +43,6 @@ Translating this notion of "uniqueness" I have been talking about, we would like
   <img src="https://github.com/pranavchinmay/pranavchinmay.github.io/blob/master/images/adding-fractions-1.PNG" alt=""/>
 </p>
 
-<center>
-![commutative-diagram](/images/adding-fractions-1.PNG)
-</center>
-
 That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. 
 
 
