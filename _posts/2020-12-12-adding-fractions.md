@@ -37,19 +37,31 @@ Now, to make good use of these fractions, we will need a way to add and multiply
 
 But is this the only way to do such a thing? Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. And hundreds more ways to add them together. Then we would have to make a choice each time we wanted to use fractions, and check if different choices gave different results, and keep track of all these things, ugh...
 
-Here is the key point. We would like the following procedure to be, in a sense, unique: **endowing integers with multiplicative inverses and performing arithmetic with these inverses**. And to achieve this, we have to add the fractions $$\mathbb{Q}$$ the way you were taught in school. 
+Here is the key point. We would like the following procedure to be, in a sense, "fundamental": **endowing integers with multiplicative inverses and performing arithmetic with these inverses**. And I claim that to achieve this, we have to add the fractions $$\mathbb{Q}$$ the way you were taught in school. 
 
-In the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication, and takes $$1$$ to $$1$$) $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
+Reformulating this in the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication, and takes $$1$$ to $$1$$) 
 
-Now, if there was another way to make fractions, we would have a ring homomorphism $$f: \mathbb{Z} \rightarrow S$$, where $$S$$ is some set, that would take every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
+$$i: \mathbb{Z} \rightarrow \mathbb{Q},$$ 
 
-Translating this notion of "uniqueness" I have been talking about, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that makes the following diagram **commute**:
+that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$, which has no multiplicative inverse in the set $$\mathbb{Z}$$, to the **fraction** $$5/1$$, which has a multiplicative inverse in the set $$\mathbb{Q}$$, namely $$1/5$$. 
+
+Now, if there was another way to make fractions, we would similarly have a ring homomorphism 
+
+$$f: \mathbb{Z} \rightarrow S,$$ 
+
+where $$S$$ is some set, that would take every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
+
+We want $$i$$ to be "fundamental", that is, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that makes the following diagram **commute**:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pranavchinmay/pranavchinmay.github.io/master/images/adding-fractions-1.PNG" alt=""/>
 </p>
 
-That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. This is a useful notion, because it tells us that any **other way** of endowing $\mathbb{Z}$ with inverses is essentially just "an extra step" taken after endowing it with inverses elementary-school-style. The elementary-school-style way of making fractions is the fundamental way. 
+That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. 
+
+This will tell us that any **other way** of endowing $$\mathbb{Z}$$ with inverses (i.e. doing $$f$$), is essentially just "an extra step" taken after endowing it with inverses elementary-school-style (i.e. doing $$i$$). In order for the elementary-school-fractions to be fundamental, we need this $$g$$ to be a ring homomorphism, that is, we need it to preserve addition and multiplication of objects in $$\mathbb{Q}$$, and send $$1$$ to $$1$$.
+
+This is the key.
 
 So suppose $$f(n) \in S$$ has a multiplicative inverse for every integer $$n$$. For the diagram to **commute**, we would need $$g\left(\frac{n}{1}\right)= f(n)$$. This tells us the form $$g$$ must take on fractions that look like $$\frac{n}{1}$$. But what about arbitrary fractions $$\frac{a}{b}$$? We claim that we can let $$g\left(\frac{a}{b}\right) = f(a) \times (f(b))^{-1}$$. Observe that this definition of $$g$$ gives us $$g\left(\frac{n}{1}\right) = f(n)$$, since $$g$$ must take $$\frac{1}{1}$$ to the element $$1 \in S$$. Thus, since we require $$g$$ to preserve addition,
 
