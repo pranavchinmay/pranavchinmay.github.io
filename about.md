@@ -8,4 +8,4 @@ I'm a first-year doctoral student at [The Graduate Center](https://www.gc.cuny.e
 
 ### Contact me
 
-[E-mail](mailto:pranavchinmay@gmail.com)
+If you have comments, questions, criticism, or just want to chat, [e-mail](mailto:pranavchinmay@gmail.com) me.
