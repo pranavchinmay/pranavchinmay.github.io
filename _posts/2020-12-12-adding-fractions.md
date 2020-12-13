@@ -19,11 +19,11 @@ $$ \frac{a}{b} + \frac{c}{d} = \frac{a+c}{b+d}. $$
 
 Well, obviously, because this doesn't work. If I buy a pizza, give my mother half of it, and my father a quarter, well, I've given away three-fourths of the pizza, not one-sixth. What a silly question!
 
-But an answer like this misses the point of the question. Not because it is wrong (clearly it is right), but because there's more to the story than meets the eye. Such questions are little tidbits: well-known, accessible instances of deeper phenomenon. Indeed, there are many lovely ideas related to this innocent question. Let's dive in. 
+But an answer like this misses the point of the question. Not because it is wrong (clearly it is right), but because there's more to the story than meets the eye. Such questions are little tidbits: well-known, accessible instances of deeper phenomenon. There are many lovely ideas lurking beneath the surface. Let's dive in. 
 
 To begin, we need a good definiton of what "fraction" means. After all, if we are to be adding these objects, we should know what they are in the first place. Imagine you are seven years old again. You are perfectly happy with your numbers, $$1$$, $$2$$, $$3$$,... maybe even $$0$$ and $$-1$$, $$-2$$, $$-3$$,... but soon enough, your teachers will make your life difficult by introducing fractions. Why do they do this?
 
-Well, the concept of fractions is motivated by a simple problem. At age seven, all the numbers you know look like the ones above (**integers**). Then someone comes along and asks you: what number do you multiply $$5$$ by to get $$1$$? Umm... there's no such number, as far as you know. Indeed, there's no such integer. 
+Well, the concept of fractions is motivated by a simple problem. At age seven, all the numbers you know look like the ones above (**integers**). Then someone comes along and asks you: what number do you multiply $$5$$ by to get $$1$$? Umm... there's no such number, as far as you know. That's true---there's no such integer. 
 
 This is unsatisfying. We would like to have such a number, for any one of your favourite reasons: "it would have practical application", or "it bothers me that there's no such number", or "more numbers? Yay!" 
 
