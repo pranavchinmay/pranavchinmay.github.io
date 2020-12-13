@@ -49,7 +49,7 @@ So suppose $$f(n) \in S$$ has a multiplicative inverse for every integer $$n$$. 
 
 $$ g\left(\frac{a}{b} + \frac{c}{d}\right) = g\left(\frac{a}{b}\right) + g\left(\frac{c}{d}\right) = f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}. $$
 
-Now a trick: on the right-hand-side, multiply by $$f(d)(f(d))^{-1}) = 1$$, and then by $$f(b)(f(b))^{-1} = 1$$. This yields
+Now a trick: on the right-hand-side, multiply by $$f(d)(f(d))^{-1} = 1$$, and then by $$f(b)(f(b))^{-1} = 1$$. This yields
 
 $$ \left(f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}\right)(f(d)(f(d))^{-1}f(b)(f(b))^{-1}). $$
 
