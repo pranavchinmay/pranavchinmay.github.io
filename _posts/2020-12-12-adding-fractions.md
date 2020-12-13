@@ -85,7 +85,7 @@ $$ f(ad + bc) \times f((bd)^{-1}). $$
 
 Which may look familiar. 
 
-Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Indeed, we could have simply done the "multiply by $$1$$" trick on $$\frac{a}{b} + \frac{c}{d}$$ and shown that it gives $$\frac{ad+bc}{bd}$$.
+Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Indeed, we could have just done the "multiply by $$1$$" trick on $$\frac{a}{b} + \frac{c}{d}$$ and shown that it gives $$\frac{ad+bc}{bd}$$.
 
 Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, as a specific instance of a general idea. This construction also shows us that fraction addition has this so-called [universal property](https://en.wikipedia.org/wiki/Universal_property), a cornerstone theme in mathematics.
 
