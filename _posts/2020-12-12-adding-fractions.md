@@ -33,9 +33,9 @@ At the beginning, we had with us the set of all integers (denoted $$\mathbb{Z}$$
 
 First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $$n$$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done. 
 
-Now, to make good use of these fractions, we will need a way to add and multiply them. Let us say for now that there is some way to make sense of "addition of fractions", but we don't know exactly what it is. So all in all, we have endowed our integers with multiplicative inverses, and we have some method of adding these objects together.
+Now, to make good use of these fractions, we will need a way to add and multiply them. Let us say for now that there is some way to make sense of "addition of fractions", but we don't know exactly what it is.
 
-But is this the only way to do such a thing? Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. And hundreds more ways to add them together. Then we would have to make a choice each time we wanted to use fractions, and check if different choices gave different results, and keep track of all these things, ugh...
+**But is this the only way to do such a thing?** Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. And hundreds more different procedures to add them together. Then we would have to make a choice each time we wanted to use fractions, and check if different choices gave different results, and keep track of all these things, ugh...
 
 Here is the key point. We would like the following procedure to be, in a sense, "fundamental": **endowing integers with multiplicative inverses and performing arithmetic with these inverses**. And I claim that to achieve this, we have to add the fractions $$\mathbb{Q}$$ the way you were taught in school. 
 
