@@ -89,4 +89,4 @@ Now is this the **answer** to the question: why do we add fractions in the funny
 
 Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, as a specific instance of a general idea. This construction also shows us that fraction addition has this so-called [universal property](https://en.wikipedia.org/wiki/Universal_property), a cornerstone theme in mathematics.
 
-In fact, the construction described here, called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)), turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. And it is motivated by a very simple question indeed: how do you add fractions?
+In fact, the construction described here, called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)), turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. And it is motivated by a very simple question: how do you add fractions?
