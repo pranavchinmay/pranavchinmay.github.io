@@ -40,7 +40,7 @@ Now, if there was another way to make fractions, we would have a ring homomorphi
 Translating this notion of "uniqueness" I have been talking about, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that makes the following diagram **commute**:
 
 <p align="center">
-  <img src="https://github.com/pranavchinmay/pranavchinmay.github.io/blob/master/images/adding-fractions-1.PNG" alt=""/>
+  <img src="https://raw.githubusercontent.com/pranavchinmay/pranavchinmay.github.io/master/images/adding-fractions-1.PNG" alt=""/>
 </p>
 
 That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. 
