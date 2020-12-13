@@ -73,11 +73,11 @@ $$ g\left(\frac{a}{b} + \frac{c}{d}\right) = g\left(\frac{a}{b}\right) + g\left(
 
 Now a trick: on the right-hand-side, multiply by $$f(d)(f(d))^{-1} = 1$$, and then by $$f(b)(f(b))^{-1} = 1$$. This yields
 
-$$ \left(f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}\right)(f(d)(f(d))^{-1}f(b)(f(b))^{-1}). $$
+$$ \left(f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}\right) \times (f(d)(f(d))^{-1}f(b)(f(b))^{-1}). $$
 
 Multiplying by just $$f(d)f(b)$$ first, this equals
 
-$$ \left(f(a)f(d)+f(b)f(c)\right)((f(b))^{-1}(f(d))^{-1}). $$
+$$ \left(f(a)f(d)+f(b)f(c)\right) \times ((f(b))^{-1}(f(d))^{-1}). $$
 
 Next, using the fact that $$f$$ preserves addition and multiplication, we can write this as
 
