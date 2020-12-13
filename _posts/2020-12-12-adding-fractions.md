@@ -43,13 +43,13 @@ Reformulating this in the language of algebra, we have a **ring homomorphism** (
 
 $$i: \mathbb{Z} \rightarrow \mathbb{Q},$$ 
 
-that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ takes the **integer** $$5$$, which has no multiplicative inverse in the set $$\mathbb{Z}$$, to the **fraction** $$5/1$$, which has a multiplicative inverse in the set $$\mathbb{Q}$$, namely $$1/5$$. 
+that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ takes the **integer** $$5$$, which has no multiplicative inverse in the set $$\mathbb{Z}$$, to the **fraction** $$\frac{5}{1}$$, which has a multiplicative inverse in the set $$\mathbb{Q}$$, namely $$\frac{1}{5}$$. 
 
 Now, if there was another way to make fractions, we would similarly have a ring homomorphism 
 
 $$f: \mathbb{Z} \rightarrow S,$$ 
 
-where $$S$$ is some set, that would take every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
+where $$S$$ is some set, such that $$f$$ takes every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
 
 We want $$i$$ to be "fundamental", that is, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that makes the following diagram **commute**:
 
