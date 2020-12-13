@@ -33,7 +33,7 @@ But is this the only way to do such a thing? Ideally, yes! It would be quite dis
 
 Here is the key point. We would like the following procedure to be unique: endowing integers with multiplicative inverses and performing arithmetic with these inverses. To achieve this, we have to add fractions the way you were taught in school. 
 
-In the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication) $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
+In the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication, and takes $$1$$ to $$1$$) $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
 
 Now, if there was another way to make fractions, we would have a ring homomorphism $$f: \mathbb{Z} \rightarrow S$$, where $$S$$ is some set, that would take every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
 
@@ -43,7 +43,19 @@ Translating this notion of "uniqueness" I have been talking about, we would like
   <img src="https://raw.githubusercontent.com/pranavchinmay/pranavchinmay.github.io/master/images/adding-fractions-1.PNG" alt=""/>
 </p>
 
-That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. 
+That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. This is a useful notion, because it tells us that any **other way** of endowing $\mathbb{Z}$ with inverses is essentially just "an extra step" taken after endowing it with inverses elementary-school-style. The elementary-school-style way of making fractions is the fundamental way. 
 
+So suppose $$f(n) \in S$$ has a multiplicative inverse for every integer $$n$$. For the diagram to **commute**, we would need $$g\left(\frac{n}{1}\right)= f(n)$$. This tells us the form $$g$$ must take on fractions that look like $$\frac{n}{1}$$. But what about arbitrary fractions $$\frac{a}{b}$$? We claim that we can let $$g\left(\frac{a}{b}\right) = f(a) \times (f(b))^{-1}$$. Observe that this definition of $$g$$ gives us $$g\left(\frac{n}{1}\right) = f(n)$$, since $$g$$ must take $$\frac{1}{1}$$ to the element $$1 \in S$$. Thus, since we require $$g$$ to preserve addition,
 
-This post was motivated by Problem 1.3D in Ravi Vakil's The Rising Sea. 
+$$ g\left(\frac{a}{b} + \frac{c}{d}\right) = g\left(\frac{a}{b}\right) + g\left(\frac{c}{d}\right) = f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}. $$
+
+Now a trick: on the right-hand-side, multiply by $$f(d)(f(d))^{-1}) = 1$$, and then by $$f(b)(f(b))^{-1} = 1$$. This yields
+
+$$ g\left(\frac{a}{b} + \frac{c}{d}\right) = \left(f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}\right)(f(d)(f(d))^{-1}f(b)(f(b))^{-1}) = \left(f(a)f(d)+f(b)f(c)\right)((f(b))^{-1}(f(d))^{-1}). $$
+
+Using the fact that $$f$$ preserves addition and multiplication, we can write this as
+
+$$ f(ad + bc) \times f((bd)^{-1}). $$
+
+Which may look familiar. In order to be "universal" in this sense, our set of fractions $\mathbb{Q}$ must have an addition law exactly like the one you learned as a child. 
+Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. However, all this talking is hopefully not for nothing, rather, it is to explore something we usually take for granted, and try to understand it in a more universal way. The construction described here turns out to be extremely, extremely important in math, particularly in commutative algebra and algebraic geometry. And all motivated by a very simple question indeed: how do you add fractions?
