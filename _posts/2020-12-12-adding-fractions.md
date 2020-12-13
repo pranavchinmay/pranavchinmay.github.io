@@ -81,7 +81,7 @@ $$ \left(f(a)f(d)+f(b)f(c)\right) \times ((f(b))^{-1}(f(d))^{-1}). $$
 
 Next, using the fact that $$f$$ preserves addition and multiplication, we can write this as
 
-$$ f(ad + bc) \times f((bd)^{-1}). $$
+$$ f(ad + bc) \times (f(bd))^{-1}. $$
 
 Which may look familiar. This item equals $$g\left(\frac{ad+bc}{bd}\right)$$, by the definition of $$g$$. And $$g$$ will be one-to-one, telling us that $$\frac{a}{b}+\frac{c}{d}$$ must be equal to $$\frac{ad+bc}{bd}$$.
 
