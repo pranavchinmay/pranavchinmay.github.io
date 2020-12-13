@@ -27,19 +27,21 @@ The concept of fractions is motivated by a simple problem. Imagine you are seven
 
 So we introduce such a number: $$\frac{1}{5}$$. And we say that $$\frac{5}{1} \times \frac{1}{5} = 1$$. Okay, reasonable. In the teacher's question, $$5$$ and $$1$$ were arbitrary integers, so in this manner we get a whole new family of numbers, that look like $$\frac{a}{b}$$, where both $$a$$ and $$b$$ are integers, and $$b$$ is not zero. We call these fractions. 
 
-At the beginning, we had with us the set of all integers (denoted $$\mathbb{Z}$$), and in trying to answer the question above, we have thrown in a whole new family of numbers. Now we have with us the set of all fractions (denoted $$\mathbb{Q}$$). Observe two things. First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $n$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done.
+At the beginning, we had with us the set of all integers (denoted $$\mathbb{Z}$$), and in trying to answer the question above, we have thrown in a whole new family of numbers. Now we have with us the set of all fractions (denoted $$\mathbb{Q}$$). Observe two things. First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $$n$$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done.
 
 But is this the only way to do such a thing? Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. Then we would have to make a choice each time we wanted to use fractions, and make sure our choice doesn't mess stuff up, and keep track of all these things, ugh...
 
 Here is the key point. We would like the following procedure to be unique: endowing integers with multiplicative inverses and performing arithmetic with these inverses. To achieve this, we have to add fractions the way you were taught in school. 
 
-In the language of algebra, we have a **ring homomorphism** $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
+In the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication) $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
 
 Now, if there was another way to make fractions, we would have a ring homomorphism $$f: \mathbb{Z} \rightarrow S$$, where $$S$$ is some set, that would take every non-zero integer to an element of $$S$$ that had a multiplicative inverse in $$S$$. 
 
-Translating this notion of "uniqueness" I have been talking about, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that made the following diagram **commute**:
+Translating this notion of "uniqueness" I have been talking about, we would like to have a ring homomorphism $$g: \mathbb{Q} \rightarrow S$$ that makes the following diagram **commute**:
 
+!(https://github.com/pranavchinmay/pranavchinmay.github.io/blob/master/images/adding-fractions-1.PNG)
 
+That is, if we do $$i$$ first, and then we do $$g$$, that is identical to just doing $$f$$. 
 
 
 This post was motivated by Problem 1.3D in Ravi Vakil's The Rising Sea. 
