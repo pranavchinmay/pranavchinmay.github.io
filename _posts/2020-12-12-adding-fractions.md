@@ -31,11 +31,13 @@ So we introduce such a number: $$\frac{1}{5}$$. And we say that $$\frac{5}{1} \t
 
 At the beginning, we had with us the set of all integers (denoted $$\mathbb{Z}$$), and in trying to answer the question above, we have thrown in a whole new family of numbers. Now we have with us the set of all fractions (denoted $$\mathbb{Q}$$). Observe two things. 
 
-First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $$n$$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done.
+First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $$n$$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done. 
 
-But is this the only way to do such a thing? Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. Then we would have to make a choice each time we wanted to use fractions, and make sure our choice doesn't mess stuff up, and keep track of all these things, ugh...
+Now, to make good use of these fractions, we will need a way to add and multiply them. Let us say for now that there is some way to make sense of "addition of fractions", but we don't know exactly what it is. So all in all, we have endowed our integers with multiplicative inverses, and we have some method of adding these objects together.
 
-Here is the key point. We would like the following procedure to be unique: endowing integers with multiplicative inverses and performing arithmetic with these inverses. To achieve this, we have to add fractions the way you were taught in school. 
+But is this the only way to do such a thing? Ideally, yes! It would be quite disastrous if there were hundreds of different ways to endow integers with multiplicative inverses. And hundreds more ways to add them together. Then we would have to make a choice each time we wanted to use fractions, and check if different choices gave different results, and keep track of all these things, ugh...
+
+Here is the key point. We would like the following procedure to be, in a sense, unique: **endowing integers with multiplicative inverses and performing arithmetic with these inverses**. And to achieve this, we have to add the fractions $$\mathbb{Q}$$ the way you were taught in school. 
 
 In the language of algebra, we have a **ring homomorphism** (a function that preserves addition and multiplication, and takes $$1$$ to $$1$$) $$i: \mathbb{Z} \rightarrow \mathbb{Q}$$ that takes every non-zero integer to a fraction that possesses a multiplicative inverse. Here, $$i$$ take the **integer** $$5$$ (which has no multiplicative inverse) to the **fraction** $$5/1$$, which has a multiplicative inverse, namely $$1/5$$. 
 
