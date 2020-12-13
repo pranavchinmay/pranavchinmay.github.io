@@ -63,7 +63,11 @@ This will tell us that any **other way** of endowing $$\mathbb{Z}$$ with inverse
 
 This is the key.
 
-So suppose $$f(n) \in S$$ has a multiplicative inverse for every integer $$n$$. For the diagram to **commute**, we would need $$g\left(\frac{n}{1}\right)= f(n)$$. This tells us the form $$g$$ must take on fractions that look like $$\frac{n}{1}$$. But what about arbitrary fractions $$\frac{a}{b}$$? We claim that we can let $$g\left(\frac{a}{b}\right) = f(a) \times (f(b))^{-1}$$. Observe that this definition of $$g$$ gives us $$g\left(\frac{n}{1}\right) = f(n)$$, since $$g$$ must take $$\frac{1}{1}$$ to the element $$1 \in S$$. Thus, since we require $$g$$ to preserve addition,
+So suppose $$f(n) \in S$$ has a multiplicative inverse for every nonzero integer $$n$$. For the diagram to **commute**, we would need $$g\left(\frac{n}{1}\right)= f(n)$$. This tells us the form $$g$$ must take on fractions that look like $$\frac{n}{1}$$. But what about arbitrary fractions $$\frac{a}{b}$$? We claim that we can let 
+
+$$g\left(\frac{a}{b}\right) = f(a) \times (f(b))^{-1}$$. 
+
+Observe that this definition of $$g$$ gives us $$g\left(\frac{n}{1}\right) = f(n)$$, since $$g$$ must take $$\frac{1}{1}$$ to the element $$1 \in S$$. Thus, since we require $$g$$ to preserve addition,
 
 $$ g\left(\frac{a}{b} + \frac{c}{d}\right) = g\left(\frac{a}{b}\right) + g\left(\frac{c}{d}\right) = f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}. $$
 
