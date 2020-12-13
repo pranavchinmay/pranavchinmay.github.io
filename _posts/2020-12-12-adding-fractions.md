@@ -10,14 +10,26 @@ title: How do you add fractions?
 </head>
 
 Probably in school you learned that
+
 $$ \frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}. $$
 
 When I was an undergraduate, a professor asked me why fraction addition had this rather funny looking definition. Why not just define it this way?
+
 $$ \frac{a}{b} + \frac{c}{d} = \frac{a+c}{b+d}. $$
 
 Well, obviously, because it doesn't work. If I buy a pizza, give my mother half of it, and my father a quarter, well, I've given away three-fourths of the pizza, not one-sixth. What a silly question!
 
 But an answer like this isn't something most math professors will accept. Not because it is wrong (clearly it is right), but because there's more to the story than meets the eye. Such questions are little tidbits: well-known, accessible instances of deeper phenomenon. Indeed, there are many lovely ideas related to this innocent question. Let's dive in. 
+
+To begin, we need a good definiton of what "fraction" means. After all, if we are to be adding these objects, we should know what they are in the first place. Well, hey, of course we know what fractions are, we learned about them in middle school. If your memory stretches that far back, think about what motivated the introduction of fractions into your studies. You were perfectly happy with your numbers, $$1$$, $$2$$, $$3$$,... maybe even $$0$$ and $$-1$$, $$-2$$, $$-3$$,... why did they make your life difficult by introducing fractions?
+
+The concept of fractions is motivated by a simple problem. Imagine you are seven years old again, and all the numbers you know look like the ones above (**integers**). Then someone (probably a teacher you were scared of) comes along and asks you: what number do you multiply $$5$$ by to get $$1$$? Umm... there's no such number, as far as you know. Indeed, there's no such integer. That's not very satisfying. We would like to have such a number, for any one of your favourite reasons: "it would have practical application", or "it bothers me that there's no such number", or "more numbers? Yay!" 
+
+So we introduce such a number: $$\frac{1}{5}$$. And we say that $$5 \times \frac{1}{5} = 1$$. Ok, reasonable. $$5$$ and $$1$$ were arbitrary, so in this manner we get a whole new family of numbers, that look like $$\frac{a}{b}$$, where both $$a$$ and $$b$$ are integers, and $$b$$ is not zero. We call these fractions. 
+
+At the beginning, we have with us the set of all integers, and in trying to answer the question above, we have thrown in a whole new family of numbers. Note that in this process, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $n$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$n \times \frac{1}{n} = 1$$. This is what we have done.
+
+
 
 
 
