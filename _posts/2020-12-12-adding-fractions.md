@@ -75,7 +75,7 @@ Now a trick: on the right-hand-side, multiply by $$f(d)(f(d))^{-1} = 1$$, and th
 
 $$ \left(f(a) \times (f(b))^{-1} + f(c) \times (f(d))^{-1}\right)(f(d)(f(d))^{-1}f(b)(f(b))^{-1}). $$
 
-Multiplying by $$f(d)f(b)$$ first, this equals
+Multiplying by just $$f(d)f(b)$$ first, this equals
 
 $$ \left(f(a)f(d)+f(b)f(c)\right)((f(b))^{-1}(f(d))^{-1}). $$
 
@@ -83,5 +83,8 @@ Next, using the fact that $$f$$ preserves addition and multiplication, we can wr
 
 $$ f(ad + bc) \times f((bd)^{-1}). $$
 
-Which may look familiar. In order to be "universal" in this sense, our set of fractions $$\mathbb{Q}$$ must have an addition law exactly like the one you learned as a child. 
-Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way. In fact, te construction described here turns out to be extremely, extremely important in math, particularly in commutative algebra and algebraic geometry. And all motivated by a very simple question indeed: how do you add fractions?
+Which may look familiar. 
+
+Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Indeed, we could have simply done the "multiply by $$1$$" trick on $$\frac{a}{b} + \frac{c}{d}$$ and shown that it gives $$\frac{ad+bc}{bd}$$.
+
+Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, to see it as a particular instance of a more general idea. In fact, the construction described here, called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)), turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. And it is motivated by a very simple question indeed: how do you add fractions?
