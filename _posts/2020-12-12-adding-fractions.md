@@ -87,4 +87,6 @@ Which may look familiar.
 
 Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Indeed, we could have simply done the "multiply by $$1$$" trick on $$\frac{a}{b} + \frac{c}{d}$$ and shown that it gives $$\frac{ad+bc}{bd}$$.
 
-Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, to see it as a particular instance of a more general idea. In fact, the construction described here, called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)), turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. And it is motivated by a very simple question indeed: how do you add fractions?
+Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, as a specific instance of a general idea. This construction also shows us that fraction addition has this so-called [universal property](https://en.wikipedia.org/wiki/Universal_property), a cornerstone theme in mathematics.
+
+In fact, the construction described here, called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)), turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. And it is motivated by a very simple question indeed: how do you add fractions?
