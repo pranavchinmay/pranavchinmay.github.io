@@ -57,5 +57,5 @@ Using the fact that $$f$$ preserves addition and multiplication, we can write th
 
 $$ f(ad + bc) \times f((bd)^{-1}). $$
 
-Which may look familiar. In order to be "universal" in this sense, our set of fractions $\mathbb{Q}$ must have an addition law exactly like the one you learned as a child. 
+Which may look familiar. In order to be "universal" in this sense, our set of fractions $$\mathbb{Q}$$ must have an addition law exactly like the one you learned as a child. 
 Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. However, all this talking is hopefully not for nothing, rather, it is to explore something we usually take for granted, and try to understand it in a more universal way. The construction described here turns out to be extremely, extremely important in math, particularly in commutative algebra and algebraic geometry. And all motivated by a very simple question indeed: how do you add fractions?
