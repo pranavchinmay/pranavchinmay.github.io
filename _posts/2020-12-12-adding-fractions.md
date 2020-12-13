@@ -83,7 +83,7 @@ Next, using the fact that $$f$$ preserves addition and multiplication, we can wr
 
 $$ f(ad + bc) \times f((bd)^{-1}). $$
 
-Which may look familiar. 
+Which may look familiar. This item equals $$g\left(\frac{ad+bc}{bd}\right)$$, by the definition of $$g$$. And $$g$$ will be one-to-one, telling us that $$\frac{a}{b}+\frac{c}{d}$$ must be equal to $$\frac{ad+bc}{bd}$$.
 
 Now is this the **answer** to the question: why do we add fractions in the funny way? No, of course not. The answer to that is simply: it works. Indeed, we could have just done the "multiply by $$1$$" trick on $$\frac{a}{b} + \frac{c}{d}$$ and shown that it gives $$\frac{ad+bc}{bd}$$.
 
