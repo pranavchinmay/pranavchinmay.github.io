@@ -27,7 +27,7 @@ Well, the concept of fractions is motivated by a simple problem. At age seven, a
 
 This is unsatisfying. We would like to have such a number, for any one of your favourite reasons: "it would have practical application", or "it bothers me that there's no such number", or "more numbers? Yay!" 
 
-So we introduce such a number: $$\frac{1}{5}$$. And we say that $$\frac{5}{1} \times \frac{1}{5} = 1$$. Okay, reasonable. In the teacher's question, $$5$$ and $$1$$ were arbitrary integers, so in this manner we get a whole new family of numbers, that look like $$\frac{a}{b}$$, where both $$a$$ and $$b$$ are integers, and $$b$$ is not zero. We call these fractions. 
+So we introduce such a number: $$\frac{1}{5}$$. And we say that $$\frac{5}{1} \times \frac{1}{5} = 1$$. Okay, reasonable. Replacing the $$5$$ and $$1$$ from earlier with arbitrary integers, we get a whole new family of numbers, that look like $$\frac{a}{b}$$, where both $$a$$ and $$b$$ are integers, and $$b$$ is not zero. We call these **fractions**. 
 
 At the beginning, we had with us the set of all integers (denoted $$\mathbb{Z}$$), and in trying to answer the question above, we have thrown in a whole new family of numbers. Now we have with us the set of all fractions (denoted $$\mathbb{Q}$$). Observe two things. First, every integer is a fraction (in notation, we write $$\mathbb{Z} \subseteq \mathbb{Q}$$), since any integer $$n$$ can be written as $$\frac{n}{1}$$. Second, in going from $$\mathbb{Z}$$ to $$\mathbb{Q}$$, we have thrown in **multiplicative inverses** for all the non-zero integers. That is, for every non-zero integer $$n$$, we have a **fraction**, namely $$\frac{1}{n}$$, that has the property $$\frac{n}{1} \times \frac{1}{n} = 1$$. This is what we have done.
 
