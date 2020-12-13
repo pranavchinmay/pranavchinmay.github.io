@@ -17,7 +17,7 @@ When I was an undergraduate, a professor asked me why fraction addition had this
 
 $$ \frac{a}{b} + \frac{c}{d} = \frac{a+c}{b+d}. $$
 
-Well, obviously, because it doesn't work. If I buy a pizza, give my mother half of it, and my father a quarter, well, I've given away three-fourths of the pizza, not one-sixth. What a silly question!
+Well, obviously, because this doesn't work. If I buy a pizza, give my mother half of it, and my father a quarter, well, I've given away three-fourths of the pizza, not one-sixth. What a silly question!
 
 But an answer like this isn't something most math professors will accept. Not because it is wrong (clearly it is right), but because there's more to the story than meets the eye. Such questions are little tidbits: well-known, accessible instances of deeper phenomenon. Indeed, there are many lovely ideas related to this innocent question. Let's dive in. 
 
