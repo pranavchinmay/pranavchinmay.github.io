@@ -89,6 +89,8 @@ Now is this the **answer** to the question: why do we add fractions in the funny
 
 Then why do all this? To explore something we usually take for granted, and try to understand it in a more universal way, as a specific instance of a general idea. 
 
-The generalisation of this idea is called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)). In our basic example, it proves that fraction addition has this [universal property](https://en.wikipedia.org/wiki/Universal_property), a cornerstone theme in mathematics. But more generally, we may begin with some arbitrary **commutative ring**, and only wish to endow **some** elements with multiplicative inverses. (In our example, we began with $$\mathbb{Z}$$, and gave every non-zero element a multiplicative inverse). Localisation deals with the technical details and consequences of this procedure.
+The generalisation of this idea is called [localisation](https://en.wikipedia.org/wiki/Localization_(commutative_algebra)). In our basic example, it proves that fraction addition has this [universal property](https://en.wikipedia.org/wiki/Universal_property), a cornerstone theme in mathematics. 
+
+But more generally, we may begin with some arbitrary **commutative ring**, and only wish to endow **some** elements with multiplicative inverses. (In our example, we began with $$\mathbb{Z}$$, and gave every non-zero element a multiplicative inverse). Localisation deals with the technical details and consequences of this procedure. When applied to **rings of functions**, it provides a tool to study geometric surfaces "locally".
 
 In fact, it turns out to be extremely important in math, particularly in commutative algebra and algebraic geometry. Like many mathematical ideas, it has broad applicability and deep scope, despite being motivated by a very simple question: how do you add fractions?
