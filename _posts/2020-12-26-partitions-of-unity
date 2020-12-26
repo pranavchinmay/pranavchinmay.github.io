@@ -9,3 +9,5 @@ title: Partitions of Unity
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 </head>
 
+In introductory differential geometry classes, we usually spend a little time proving that manifolds admit partitions of unity. Definitions are usually provided, a magic wand is waved, and instantly, all your local results can be stitched together into global results. 
+
