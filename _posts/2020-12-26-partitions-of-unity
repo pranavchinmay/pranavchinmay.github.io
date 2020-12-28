@@ -11,3 +11,4 @@ title: Partitions of Unity
 
 In introductory differential geometry classes, we usually spend a little time proving that manifolds admit partitions of unity. Definitions are usually provided, a magic wand is waved, and instantly, all your local results can be stitched together into global results. 
 
+In fact, partitions of unity are such an indispensable tool that the definition of manifold 
