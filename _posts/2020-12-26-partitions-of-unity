@@ -9,6 +9,8 @@ title: Partitions of Unity
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 </head>
 
-In introductory differential geometry classes, we usually spend a little time proving that manifolds admit partitions of unity. Definitions are usually provided, a magic wand is waved, and instantly, all your local results can be stitched together into global results. 
+Partitions of unity are such an indispensable tool in differential geometry that we do not deign to work with manifolds that are not second countable, simply because they may not admit the existence of a partition of unity. 
 
-In fact, partitions of unity are such an indispensable tool that the definition of manifold 
+In introductory differential geometry classes, we usually say a few vague words about partitions of unity. Definitions are provided, a magic wand is waved, and instantly, all your local results can be stitched together into global results. 
+
+In fact, partitions of unity are such an indispensable tool that we usually require second countability of our manifold before we will agree to do differential geometry with it. Second countability is insisted upon to ensure manifolds admit partitions of unity. 
