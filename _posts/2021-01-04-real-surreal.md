@@ -9,11 +9,15 @@ title: Real numbers and surreal numbers
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 </head>
 
-In my [last post](https://pranavchinmay.github.io/adding-fractions/), I described the first "expansion" of numbers most of us encounter: going from the set of integers, $$\mathbb{Z}$$ $$(...,-1,0,1,...)$$, to the set of fractions, or **rational numbers**, $$\mathbb{Q}$$. The introduction of rational numbers was motivated by the following question. What do you multiply $$5$$ by to get $$1$$? In the set $$\mathbb{Q}$$, this question has an answer: $$\frac{1}{5}$$. One might imagine, now, that this set $$\mathbb{Q}$$ contains sufficiently many numbers to handle whatever questions we may throw at it.
+In my [last post](https://pranavchinmay.github.io/adding-fractions/), I described the first "expansion" of numbers most of us encounter: going from the set of integers, $$\mathbb{Z}$$ $$(...,-1,0,1,...)$$, to the set of fractions, or **rational numbers**, $$\mathbb{Q}$$. 
+
+The introduction of rational numbers was motivated by the following question. What do you multiply $$5$$ by to get $$1$$? In the set $$\mathbb{Q}$$, this question has an answer: $$\frac{1}{5}$$. One might imagine, now, that this set $$\mathbb{Q}$$ contains sufficiently many numbers to handle whatever questions we may throw at it.
 
 But it doesn't. What number, when multiplied by itself, gives $$2$$? Let us give it a symbol: $$\sqrt{2}$$. Now, is $$\sqrt{2}$$ a rational number? Does it live in $$\mathbb{Q}$$?
 
-This is an old question, with an old [proof](https://www.math.utah.edu/~pa/math/q1.html). No. The number we have labelled $$\sqrt{2}$$ is not a rational number. We need a larger set of numbers to deal with such questions. This is the set of **real numbers**, denoted $$\mathbb{R}$$. Okay, good, but what does this look like: what properties does it have? Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary properties of the rational numbers, $$\mathbb{Q}$$, are the following: 
+This is an old question, with an old [proof](https://www.math.utah.edu/~pa/math/q1.html). No. The number we have labelled $$\sqrt{2}$$ is not a rational number. We need a larger set of numbers to deal with such questions. This is the set of **real numbers**, denoted $$\mathbb{R}$$. What does this look like? What properties does it have? 
+
+Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary properties of the rational numbers, $$\mathbb{Q}$$, are the following: 
 (i) they are **totally ordered**---given any two rationals, $$a$$ and $$b$$, at least one of the following happens: $$a \leq b$$, or $$b \leq a$$, 
 (ii) they form a **field**---you can add, subtract, and multiply rational numbers, and divide by nonzero rational numbers. 
 
