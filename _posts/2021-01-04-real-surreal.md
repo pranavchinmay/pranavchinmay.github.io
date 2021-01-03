@@ -25,7 +25,7 @@ Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary p
 
 The questions, now, are the following: do these two properties extend to $$\mathbb{R}$$? Does $$\mathbb{R}$$ have any other properties?
 
-Let's tackle (i) first. If the reals are to be totally ordered, we will need to know how big this $$"\sqrt{2}"$$ is. Our intuition tells us to note that $$1.4^2 = 1.96$$, and $$1.5^2 = 2.25$$, so this thing we have called $$"\sqrt{2}"$$, whose square is $$2$$, should be larger than $$1.4$$ and smaller than $$1.5$$. Next, $$1.41^2 = 1.9881$$, and $$1.42^2 = 2.0164$$, so $$\sqrt{2}$$ should be larger than $$1.41$$, and smaller than $$1.42$$. We continue this process indefinitely, and it leads us to the following familiar picture. 
+Let's tackle (i) first. If the reals are to be totally ordered, we will need to know how big this $$``\sqrt{2}``$$ is. Our intuition tells us to note that $$1.4^2 = 1.96$$, and $$1.5^2 = 2.25$$, so this thing we have called $$"\sqrt{2}"$$, whose square is $$2$$, should be larger than $$1.4$$ and smaller than $$1.5$$. Next, $$1.41^2 = 1.9881$$, and $$1.42^2 = 2.0164$$, so $$\sqrt{2}$$ should be larger than $$1.41$$, and smaller than $$1.42$$. We continue this process indefinitely, and it leads us to the following familiar picture. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pranavchinmay/pranavchinmay.github.io/master/images/real-line.PNG" alt=""/>
