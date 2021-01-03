@@ -39,7 +39,7 @@ There are lots of other real numbers that are not rational numbers: you may be f
 
 So the real numbers successfully inherit the two fundamental properties of the rational numbers. But surely they must have extra propertes that the rational numbers do not have. 
 
-(iii) the Least Upper Bound property---every nonempty set of reals that is bounded above has a Least Upper Bound.
+(iii) the **Least Upper Bound property**---every nonempty set of reals that is bounded above has a Least Upper Bound.
 
 This property is related to our initial, motivating question: what number, when multiplied by itself, gives $$2$$? Consider the set $$S$$ of all **rational numbers** whose square does not exceed $$2$$. The set $$S$$ is nonempty: it contains $$0$$, for instance. The set $$S$$ is bounded above: $$5$$ is larger than every number in $$S$$, for instance. However, the set $$S$$ has **no Least Upper Bound** in the set of rational numbers $$\mathbb{Q}$$. Any rational upper bound for $$S$$ necessarily admits a slightly smaller rational upper bound for $$S$$. So among all possible rational upper bounds for $$S$$, there is **no** smallest one. 
 
