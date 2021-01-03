@@ -33,7 +33,7 @@ Let's tackle (i) first. If the reals are to be totally ordered, we will need to 
 
 The real line. This picture is an excellent one, because it affirms clearly that the real numbers possess property (i), i.e., they are totally ordered. We will never be able to precisely locate $$\sqrt{2}$$, but we can always "zoom in" to get arbitrarily close to it. 
 
-As for property (ii), the real numbers do form a field. Our initial, motivating question illustrates this: we can multiply $$\sqrt{2}$$ by $$\sqrt{2}$$ to get $$2$$. We can also add any two real numbers: the sum of $$2$$ and $$\sqrt{2}$$ can just be called $$2 + \sqrt{2}$$, and placed appropriately on the number line, as you learned to do in school. 
+As for property (ii), the real numbers do form a field. Our initial, motivating question illustrates this: we can multiply $$\sqrt{2}$$ by $$\sqrt{2}$$ to get $$2$$. We can also add any two real numbers: the sum of $$2$$ and $$\sqrt{2}$$ can just be called $$2 + \sqrt{2}$$, and placed appropriately on the real line, as you learned to do in school. 
 
 There are lots of other real numbers that are not rational numbers: you may be familiar with $$\pi$$, or $$e$$. (Interestingly enough, it is yet unknown whether $$\pi + e$$ is rational, or $$\pi e$$ is rational). In fact, [most real numbers are irrational](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument#Real_numbers), whatever that means. 
 
