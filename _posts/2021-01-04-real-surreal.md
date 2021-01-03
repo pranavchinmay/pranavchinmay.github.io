@@ -21,7 +21,7 @@ Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary p
 
 (i) they are **totally ordered**---given any two rationals, $$a$$ and $$b$$, at least one of the following happens: $$a \leq b$$, or $$b \leq a$$,
 
-(ii) they form a **field**---you can add, subtract, and multiply rational numbers, and divide by nonzero rational numbers. 
+(ii) they form a **field**---you can add, subtract, and multiply rational numbers, and divide by nonzero rational numbers, and your result will always be a rational number. 
 
 The questions, now, are the following: do these two properties extend to $$\mathbb{R}$$? Does $$\mathbb{R}$$ have any other properties?
 
