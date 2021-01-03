@@ -9,4 +9,8 @@ title: Real numbers and surreal numbers
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 </head>
 
-In my last post, I described the first "expansion" of numbers most of us encounter: going from the set of integers, $$\mathbb{Z}$$, to the set of fractions, or **rational numbers**, $$\mathbb{Q}$$. 
+In my [last post](https://pranavchinmay.github.io/adding-fractions/), I described the first "expansion" of numbers most of us encounter: going from the set of integers, $$\mathbb{Z}$$ $$(...,-1,0,1,...)$$, to the set of fractions, or **rational numbers**, $$\mathbb{Q}$$. The introduction of rational numbers was motivated by the following question. What do you multiply $$5$$ by to get $$1$$? In the set $$\mathbb{Q}$$, this question has an answer---$$\frac{1}{5}$$. One might imagine, now, that this set $\mathbb{Q}$ contains sufficiently many numbers to handle whatever questions we may throw at it.
+
+But it doesn't. What number, when multiplied by itself, gives $$2$$? We would like to have such a number, surely. Let us give it a symbol: $$\sqrt{2}$$. Now, is $$\sqrt{2}$$ a rational number? Does it live in $$\mathbb{Q}$$?
+
+This is an old question, with an old [proof](https://www.math.utah.edu/~pa/math/q1.html). 
