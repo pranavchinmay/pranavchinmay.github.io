@@ -25,7 +25,7 @@ Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary p
 
 The questions, now, are the following: do these two properties extend to $$\mathbb{R}$$? Does $$\mathbb{R}$$ have any other properties?
 
-Let's tackle (i) first. If the reals are to be totally ordered, we will need to know how big this $$``\sqrt{2}``$$ is. Our intuition tells us to note that $$1.4^2 = 1.96$$, and $$1.5^2 = 2.25$$, so this thing we have called $$``\sqrt{2}``$$, whose square is $$2$$, should be larger than $$1.4$$ and smaller than $$1.5$$. Next, $$1.41^2 = 1.9881$$, and $$1.42^2 = 2.0164$$, so $$\sqrt{2}$$ should be larger than $$1.41$$, and smaller than $$1.42$$. We continue this process indefinitely, and it leads us to the following familiar picture. 
+Let's tackle (i) first. If the reals are to be totally ordered, we will need to know how big this $$``\sqrt{2}''$$ is. Our intuition tells us to note that $$1.4^2 = 1.96$$, and $$1.5^2 = 2.25$$, so this thing we have called $$``\sqrt{2}''$$, whose square is $$2$$, should be larger than $$1.4$$ and smaller than $$1.5$$. Next, $$1.41^2 = 1.9881$$, and $$1.42^2 = 2.0164$$, so $$\sqrt{2}$$ should be larger than $$1.41$$, and smaller than $$1.42$$. We continue this process indefinitely, and it leads us to the following familiar picture. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pranavchinmay/pranavchinmay.github.io/master/images/real-line.PNG" alt=""/>
@@ -33,7 +33,7 @@ Let's tackle (i) first. If the reals are to be totally ordered, we will need to 
 
 The real line. This picture is an excellent one, because it affirms clearly that the real numbers possess property (i), i.e., they are totally ordered. We will never be able to precisely locate $$\sqrt{2}$$, but we can always "zoom in" to get arbitrarily close to it. 
 
-As for property (ii), the real numbers do form a field. Our initial, motivating question illustrates this: we can multiply $$\sqrt{2}$$ by $$\sqrt{2}$$ to get $$2$$. We can also add any two real numbers: the sum of $$2$$ and $$\sqrt{2}$$ can just be called $$``2 + \sqrt{2}``$$, and placed appropriately on the number line, as you learned to do in school. 
+As for property (ii), the real numbers do form a field. Our initial, motivating question illustrates this: we can multiply $$\sqrt{2}$$ by $$\sqrt{2}$$ to get $$2$$. We can also add any two real numbers: the sum of $$2$$ and $$\sqrt{2}$$ can just be called $$``2 + \sqrt{2}''$$, and placed appropriately on the number line, as you learned to do in school. 
 
 There are lots of other real numbers that are not rational numbers: you may be familiar with $$\pi$$, or $$e$$, or (potentially), the [Euler-Mascheroni constant](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant) $$\gamma$$. (Interestingly enough, it is yet unknown whether $$\gamma$$ is rational. It is also unknown if $$\pi + e$$ is rational, or $$\pi e$$ is rational). In fact, [most real numbers are irrational](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument#Real_numbers), whatever that means. 
 
