@@ -33,8 +33,12 @@ There are lots of other real numbers that are not rational numbers: you may be f
 
 So the real numbers successfully inherit the two fundamental properties of the rational numbers. But surely they must have extra propertes that the rational numbers do not have. They do. 
 
-(iii) the Least Upper Bound property
+(iii) the Least Upper Bound property---every nonempty set of reals that is bounded above has a Least Upper Bound.
 
-This property is related to our initial, motivating question: what number, when multiplied by itself, gives $$2$$? 
+This property is related to our initial, motivating question: what number, when multiplied by itself, gives $$2$$? Consider the set $$S$$ of all **rational numbers** whose square does not exceed $$2$$. The set $$S$$ is nonempty: it contains $$0$$, for instance. The set $$S$$ is bounded above: $$5$$ is larger than every number in $$S$$, for instance. However, the set $$S$$ has **no Least Upper Bound** in the set of rational numbers $$\mathbb{Q}$$. Any rational upper bound for $$S$$ necessarily admits a slightly smaller rational upper bound for $$S$$. So among all possible rational upper bounds for $$S$$, there is **no** smallest one. 
+
+On the other hand, if we consider the set $$T$$ of all **real numbers** whose square does not exceed $$2$$, notice what happens. The set $$T$$ is nonempty: it contains $$0$$, for instance. The set $$T$$ is bounded above: $$5$$ is larger than every number in $$T$$, for instance. And the set $$T$$ **does** have a Least Upper Bound in the set of real numbers $$\mathbb{R}$$: the number $$\sqrt{2}$$. Surely $$\sqrt{2}$$ is an upper bound for this set, and among all possible upper bounds, it is the **smallest one**. No real number smaller than $$\sqrt{2}$$ is an upper bound for $$T$$, almost by definition. 
+
+This third property of the real numbers $$\mathbb{R}$$ distinguishes them from the rational numbers $$\mathbb{Q}$$. Which leads us to the following canonical definition. The real numbers $$\mathbb{R}$$ are the unique totally ordered field with the least upper bound property. I say "unique" here because any other totally ordered field with the least upper bound property looks exactly like $$\mathbb{R}$$. 
 
 
