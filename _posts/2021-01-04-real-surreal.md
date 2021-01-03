@@ -37,7 +37,7 @@ As for property (ii), the real numbers do form a field. Our initial, motivating 
 
 There are lots of other real numbers that are not rational numbers: you may be familiar with $$\pi$$, or $$e$$. (Interestingly enough, it is yet unknown whether $$\pi + e$$ is rational, or $$\pi e$$ is rational). In fact, [most real numbers are irrational](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument#Real_numbers), whatever that means. 
 
-So the real numbers successfully inherit the two fundamental properties of the rational numbers. But surely they must have extra propertes that the rational numbers do not have. They do. 
+So the real numbers successfully inherit the two fundamental properties of the rational numbers. But surely they must have extra propertes that the rational numbers do not have. 
 
 (iii) the Least Upper Bound property---every nonempty set of reals that is bounded above has a Least Upper Bound.
 
