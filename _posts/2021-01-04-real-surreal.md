@@ -15,7 +15,7 @@ The introduction of rational numbers was motivated by the following question. Wh
 
 But it doesn't. What number, when multiplied by itself, gives $$2$$? Let us give it a symbol: $$\sqrt{2}$$. Now, is $$\sqrt{2}$$ a rational number? Does it live in $$\mathbb{Q}$$?
 
-This is an old question, with an old [proof](https://www.math.utah.edu/~pa/math/q1.html). No. The number we have labelled $$\sqrt{2}$$ is not a rational number. We need a larger set of numbers to deal with such questions. This is the set of **real numbers**, denoted $$\mathbb{R}$$. What does this look like? What properties does it have? 
+No. This is an old question, with an old [proof](https://www.math.utah.edu/~pa/math/q1.html). The number we have labelled $$\sqrt{2}$$ is not a rational number. We need a larger set of numbers to deal with such questions. This is the set of **real numbers**, denoted $$\mathbb{R}$$. What does this look like? What properties does it have? 
 
 Our reference point is $$\mathbb{Q}$$, so let's go from there. The two primary properties of the rational numbers, $$\mathbb{Q}$$, are the following: 
 (i) they are **totally ordered**---given any two rationals, $$a$$ and $$b$$, at least one of the following happens: $$a \leq b$$, or $$b \leq a$$, 
